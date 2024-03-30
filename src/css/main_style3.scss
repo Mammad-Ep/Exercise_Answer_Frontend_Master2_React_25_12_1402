@@ -1,0 +1,70 @@
+
+.stage-container{
+    width: 80%;
+    margin: 30px auto;
+    border: 0.5px solid #ccc;
+    padding: 10px;
+    text-align: center;
+
+    .stage-title{
+        padding: 10px 0;
+        background-color: rgb(27, 95, 255);
+        color: #fff;
+        width: 60%;
+        border-radius: 7px;
+        text-align: center;
+        margin: auto;
+        font-size: 1.3rem;
+    }
+
+    .reservation-box{
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        div{
+            background-color: orange;
+            width: 200px;
+            padding: 10px 0;
+            border-radius: 7px;
+            margin: 0 10px;
+        }
+    }
+
+    .concert-chairs-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        >div{
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 5px;
+            margin: 10px;
+        }
+        .section-A{
+            width: 40%;
+        }
+        .section-B{
+            width: 25%;
+        }
+        .section-C{
+            width: 25%;
+        }
+
+        .section-D{
+            width: 60%;
+        }
+    }
+
+}
+
+.btn-chair{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    cursor: pointer;
+    // color: rgb(242, 45, 45);
+}
